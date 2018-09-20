@@ -1,0 +1,145 @@
+#Utlimas{
+	position: center:center;
+}
+
+
+.navbar-superior{
+	background-color: green;
+	border:0;
+	border-radius: 0;
+	margin: 0 auto;
+
+}
+.navbar-sup span{
+	background-color: #fff;
+}
+.navbar-superior a{
+	color:#fff;
+
+}
+.navbar-superior a:hover{
+	background-color: #000 !important;
+	color: #BA55D3;
+}
+
+.navbar-sup{
+	background-color: grey;
+	
+}
+
+#home{
+	height: 50px;
+	overflow: hidden;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Shadows Into Light Two;
+}
+
+#home p{
+	font-size: 1.5em;
+}
+
+#home{
+	width: 90%;
+	margin-top: 40px;
+}
+#home #logo{
+	margin-top: 30px;
+}
+
+#home h1{
+	margin-top: 20px;
+	font-size: 3em;
+}
+#home #botao-download{
+	padding: 12px 32px;
+	font-size: 1.3em;
+	-webkit-border-radius:32px;
+	-moz-border-radius:32px;
+	border-radius: 32px;
+	background-color: #4d6d68;
+	border: 2px solid #2d4743;
+	margin-top: 10px;
+	font-family: none;
+}
+
+#home #botao-download span{
+	margin-left: 10px;
+}
+
+
+/* xs */
+@media(max-width: 767px){
+	#formulario{
+		height: auto;
+
+	}
+
+	#home{
+		height: auto;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	
+	
+	#home #logo{
+	margin-top: 8px;
+	width: 48px;
+	height: 48px;
+}
+
+	#home h1{
+		margin-top: 8px;
+		font-size: 1.8em;
+	}
+
+	#home p{
+	font-size: 1em;
+	}
+	
+}
+
+}
+/* sm */
+@media(min-width: 768px) and (max-width: 991px){
+	.navbar-sup{
+		text-align: center;
+	}
+	#home{
+		height: 300px;
+		text-align: center;
+	}
+	#home #logo{
+	margin-top: 15px;
+	}
+
+	#home h1{
+		margin-top: 15px;
+		font-size: 2.5em;
+	}
+	#home p{
+	font-size: 1.2em;
+	}
+
+	#funcionalidades hr{
+	margin-right: 25%;
+	margin-left:  25%;
+	border-width: 2px;
+	border-color: #aaa;
+}
+
+}
+/*md*/
+@media(min-width: 992px) and (max-width: 1199px){
+
+#funcionalidades hr{
+	margin-right: 25%;
+	margin-left:  25%;
+	border-width: 2px;
+	border-color: #aaa;
+}
+/* lg */
+@media(min-width: 1200px){
+
+}
